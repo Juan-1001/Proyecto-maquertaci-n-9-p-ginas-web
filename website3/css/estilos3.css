@@ -8,16 +8,55 @@ body {
 	background: #231E20
 }
 
-header, .main, .article, {
-	width: 100%;
-	max-width: 95%;
-	margin: auto;
+.button1 {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
+
+.button {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+header nav {
+	z-index: 9999;
+	position: fixed;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+	padding: 10px;
+	background: #59595B;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+header nav  ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	margin: auto;
+	background: #F36522;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	color: #000;
+}
+
 
 .main .article {
 	background: #414143;
   	width: 95%;
-  	margin: 10px 20px;
+  	margin: 100px 20px;
   	float: left;
   	border-radius: 10px;
 }
@@ -25,7 +64,7 @@ header, .main, .article, {
 .video {
 	background: #414143;
   	width: 95%;
-  	margin: 10px 20px;
+  	margin: -70px 20px;
   	float: left;
   	border-radius: 10px;
 }
@@ -39,7 +78,7 @@ header, .main, .article, {
 .texto {
 	background: #414143;
   	width: 46%;
-  	margin: 10px 20px;
+  	margin: 100px 20px;
   	float: left;
   	border-radius: 10px;
 }
